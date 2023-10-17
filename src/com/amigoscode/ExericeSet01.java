@@ -1,4 +1,5 @@
 package com.amigoscode;
 
-public class ExericeSet01 {
+public class Main {
+    int a = 2;
 }
