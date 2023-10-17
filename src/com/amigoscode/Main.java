@@ -1,13 +1,23 @@
 package com.amigoscode;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-    // https://docs.oracle.com/en/java/javase/17/docs/api/index.html
-        // write your code here
-        int[] numbers = new int[3];
-        System.out.println(Arrays.toString(numbers));
+        // int[] numbers = new int[3];
+        System.out.println("test");
+
+        // following line runs all the homework modules
+        homework();
+    }
+
+    public static void homework() {
+        Exercise01.task01();
+        Exercise01.task02();
+        Exercise01.task03();
+        Exercise01.task04();
+        Exercise01.task05();
+        Exercise01.task06();
     }
 }
