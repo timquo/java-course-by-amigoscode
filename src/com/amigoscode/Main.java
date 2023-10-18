@@ -19,6 +19,7 @@ public class Main {
         Exercise01.task04();
         Exercise01.task05();
         Exercise01.task06();
+        System.out.println("First set of exercises is done!");
 
         Exercise02.task01();
         Exercise02.task02();
@@ -35,5 +36,17 @@ public class Main {
         Exercise02.task13();
         Exercise02.task14();
         Exercise02.task15();
+        System.out.println("Second set of exercises is done!");
+
+        Exercise03.task01();
+        Exercise03.task02();
+        Exercise03.task03();
+        Exercise03.task04();
+        Exercise03.task05();
+        Exercise03.task06();
+        Exercise03.task07();
+        Exercise03.task08();
+        System.out.println("Third set of exercises is done!");
+        }
     }
-}
+
