@@ -47,6 +47,12 @@ public class Main {
         Exercise03.task07();
         Exercise03.task08();
         System.out.println("Third set of exercises is done!");
+
+        System.out.println(Exercise04.task01("Hello World!"));
+        System.out.println(Exercise04.task02("   amig os cod e  "));
+        String[] ex04Task03Array = {"hello", "ola", "bye", "bingo"};
+        System.out.println(Exercise04.task03(ex04Task03Array));
+        System.out.println("Fourth set of exercises is done!");
         }
     }
 
