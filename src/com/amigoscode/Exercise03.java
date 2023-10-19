@@ -1,7 +1,5 @@
 package com.amigoscode;
 
-import java.util.Arrays;
-
 public class Exercise03 {
 
     public static void task01() {
