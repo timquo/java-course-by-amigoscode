@@ -7,8 +7,9 @@ import java.text.MessageFormat;
 public class Main {
 
     public static void main(String[] args) {
-        // int[] numbers = new int[3];
         System.out.println("test");
+        Integer a = 3;
+        System.out.println(a.toString());
 
         // following line runs all the homework modules
         homework();
@@ -78,6 +79,15 @@ public class Main {
         Exercise05.task08("This is a sentence with seven words.");
         System.out.println("=".repeat(30));
         System.out.println("Fifth set of exercises is done!");
+        System.out.println("=".repeat(30));
+
+        Exercise06.task01();
+        String[] ex06Task02Array = {"0", "3", "6", "23"};
+        Exercise06.task02(ex06Task02Array);
+        Exercise06.task03();
+        Exercise06.task04();
+        System.out.println("=".repeat(30));
+        System.out.println("Sixth set of exercises is done!");
         System.out.println("=".repeat(30));
         }
     }
