@@ -101,11 +101,19 @@ public class Main {
 //        System.out.println("=".repeat(30));
 //        System.out.println("Eighth set of exercises is done!");
 //        System.out.println("=".repeat(30));
+//
+//        Exercise09.task01();
+//        System.out.println("=".repeat(30));
+//        System.out.println("Ninth set of exercises is done!");
+//        System.out.println("=".repeat(30));
+//        }
 
-        Exercise09.task01();
+        String[] task01Arguments = {"12", "12", "", "a", "b", "foo", "13", "-5", "1.0"};
+        Exercise10.task01(task01Arguments);
+        Exercise10.task02();
         System.out.println("=".repeat(30));
         System.out.println("Ninth set of exercises is done!");
         System.out.println("=".repeat(30));
-        }
+}
     }
 
