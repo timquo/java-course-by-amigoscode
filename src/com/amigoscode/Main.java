@@ -88,13 +88,16 @@ public class Main {
 //        System.out.println("Sixth set of exercises is done!");
 //        System.out.println("=".repeat(30));
 
-        Exercise07.task01();
-        Exercise07.task02();
-        Exercise07.task03();
-        Exercise07.task04();
-        System.out.println("=".repeat(30));
-        System.out.println("Sixth set of exercises is done!");
-        System.out.println("=".repeat(30));
+//        Exercise07.task01();
+//        Exercise07.task02();
+//        Exercise07.task03();
+//        Exercise07.task04();
+//        System.out.println("=".repeat(30));
+//        System.out.println("Sixth set of exercises is done!");
+//        System.out.println("=".repeat(30));
+
+        Exercise08.task01();
+        Exercise08.task02();
         }
     }
 
