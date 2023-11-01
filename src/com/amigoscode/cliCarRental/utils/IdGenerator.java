@@ -8,6 +8,17 @@ public class IdGenerator {
     private final Set<String> generatedStrings = new HashSet<>();
     private final Random random = new Random();
 
+    // Create a private static instance of IdGenerator
+    private static final IdGenerator instance = new IdGenerator();
+
+    // Make the constructor private to prevent external instantiation
+    private IdGenerator() {
+    }
+
+    public static IdGenerator getInstance() {
+        return instance;
+    }
+
     public String generateUniqueString() {
         String randomString;
         do {
@@ -30,12 +41,12 @@ public class IdGenerator {
         return sb.toString();
     }
 
-//    public static void main(String[] args) {
-//        IdGenerator generator = new IdGenerator();
-//
-//        for (int i = 0; i < 10; i++) {
-//            String uniqueString = generator.generateUniqueString();
-//            System.out.println(uniqueString);
-//        }
-//    }
+    public static void main(String[] args) {
+        IdGenerator generator = new IdGenerator();
+
+        for (int i = 0; i < 10; i++) {
+            String uniqueString = generator.generateUniqueString();
+            System.out.println(uniqueString);
+        }
+    }
 }
