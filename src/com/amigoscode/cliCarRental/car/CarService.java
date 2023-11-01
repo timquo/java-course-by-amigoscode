@@ -75,4 +75,14 @@ public class CarService {
         }
     }
 
+    public static Car carByCarPlate(String carPlate) {
+        List<Car> cars = CarDAO.getAllCars();
+        for (Car car : cars) {
+            if (carPlate.equals(car.getPlateNumber()) && !car.getIsBooked()) {
+                return car;
+            }
+        }
+        return null;
+    }
+
 }
