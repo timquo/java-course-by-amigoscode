@@ -19,7 +19,6 @@ public class Booking {
         return dailyPrice;
     }
 
-    // can probably add time as well
     private final String bookingId;
     private final double dailyPrice;
 
@@ -35,5 +34,4 @@ public class Booking {
         return "Booking ID: " + bookingId + "\nUser ID: " + userId + "\nCar Details:\n" + car.toString() +
                 "\nDaily Price: $" + String.format("%.2f", dailyPrice);
     }
-
 }

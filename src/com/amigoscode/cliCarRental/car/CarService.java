@@ -3,8 +3,6 @@ package com.amigoscode.cliCarRental.car;
 import java.util.List;
 
 public class CarService {
-//    static CarDAO carDAO = CarDAO.getInstance();
-
     // Populate garage with cars
     public static void parkTemplateCars() {
         Car car1 = new Car("ABC123", CarBrand.TOYOTA, 25000, false);

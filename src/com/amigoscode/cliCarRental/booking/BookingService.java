@@ -1,13 +1,9 @@
 package com.amigoscode.cliCarRental.booking;
 
 import com.amigoscode.cliCarRental.car.Car;
-
 import java.util.List;
 import java.util.Scanner;
-
 import com.amigoscode.cliCarRental.car.CarService;
-import com.amigoscode.cliCarRental.client.Client;
-import com.amigoscode.cliCarRental.client.ClientDAO;
 import com.amigoscode.cliCarRental.client.ClientService;
 
 public class BookingService {

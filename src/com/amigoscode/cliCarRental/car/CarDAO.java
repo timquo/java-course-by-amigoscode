@@ -1,7 +1,5 @@
 package com.amigoscode.cliCarRental.car;
 
-import com.amigoscode.cliCarRental.utils.IdGenerator;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,5 +44,4 @@ public class CarDAO {
         }
         return cars;
     }
-
 }

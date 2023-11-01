@@ -3,10 +3,7 @@ package com.amigoscode.cliCarRental;
 import java.util.Scanner;
 
 import com.amigoscode.cliCarRental.booking.BookingService;
-import com.amigoscode.cliCarRental.car.Car;
-import com.amigoscode.cliCarRental.car.CarBrand;
 import com.amigoscode.cliCarRental.car.CarService;
-import com.amigoscode.cliCarRental.car.CarSpace;
 import com.amigoscode.cliCarRental.client.ClientService;
 
 
@@ -42,18 +39,15 @@ public class Main {
                     BookingService.bookACar();
                     break;
                 case 2:
-                    // __ return to test this with booked cars
                     CarService.viewAllBookedCars();
                     break;
                 case 3:
                     BookingService.printBookingList();
                     break;
                 case 4:
-                    // __ return to test this with all cars booked
                     CarService.viewAllAvailableCars();
                     break;
                 case 5:
-                    // __ return to test this with all cars booked
                     CarService.viewAllAvailableElectricCars();
                     break;
                 case 6:

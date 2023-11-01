@@ -29,10 +29,6 @@ public class Client {
         return surname;
     }
 
-//    public boolean getSurname() {
-//        return surname;
-//    }
-
     public void setPhone(String newPhone) {
         this.phone = newPhone;
     }
