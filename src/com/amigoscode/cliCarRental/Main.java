@@ -1,11 +1,19 @@
 package com.amigoscode.cliCarRental;
 
 import java.util.Scanner;
+
+import com.amigoscode.cliCarRental.car.Car;
+import com.amigoscode.cliCarRental.car.CarBrand;
+import com.amigoscode.cliCarRental.car.CarService;
+import com.amigoscode.cliCarRental.car.CarSpace;
 import com.amigoscode.cliCarRental.client.ClientService;
 
 
 public class Main {
     public static void main(String[] args) {
+        // Populate garage with cars
+        CarService.parkTemplateCars();
+
         Scanner scanner = new Scanner(System.in);
 
         // Runs indefinitely until "7" is entered
@@ -33,19 +41,21 @@ public class Main {
                     System.out.println("Running module one...");
                     break;
                 case 2:
-                    System.out.println("Running module two...");
+                    // __ return to test this with booked cars
+                    CarService.viewAllBookedCars();
                     break;
                 case 3:
                     System.out.println("Running module three...");
                     break;
                 case 4:
-                    System.out.println("Running module four...");
+                    // __ return to test this with all cars booked
+                    CarService.viewAllAvailableCars();
                     break;
                 case 5:
-                    System.out.println("Running module five...");
+                    // __ return to test this with all cars booked
+                    CarService.viewAllAvailableElectricCars();
                     break;
                 case 6:
-                    System.out.println("Running module six...");
                     ClientService.printClientList();
                     break;
                 case 7:
