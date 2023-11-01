@@ -20,4 +20,14 @@ public class ClientService {
                     + client.getName() + ", Surname: " + client.getSurname());
         }
     }
+
+    public static boolean clientIdExist(String clientId) {
+        List<Client> clients = ClientDAO.getAllClients();
+        for (Client client : clients) {
+            if (clientId.equals(client.getId())) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
