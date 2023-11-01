@@ -2,6 +2,7 @@ package com.amigoscode.cliCarRental;
 
 import java.util.Scanner;
 
+import com.amigoscode.cliCarRental.booking.BookingService;
 import com.amigoscode.cliCarRental.car.Car;
 import com.amigoscode.cliCarRental.car.CarBrand;
 import com.amigoscode.cliCarRental.car.CarService;
@@ -38,14 +39,14 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    System.out.println("Running module one...");
+                    BookingService.bookACar();
                     break;
                 case 2:
                     // __ return to test this with booked cars
                     CarService.viewAllBookedCars();
                     break;
                 case 3:
-                    System.out.println("Running module three...");
+                    BookingService.printBookingList();
                     break;
                 case 4:
                     // __ return to test this with all cars booked
