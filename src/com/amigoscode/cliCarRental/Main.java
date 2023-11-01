@@ -1,6 +1,8 @@
 package com.amigoscode.cliCarRental;
 
 import java.util.Scanner;
+import com.amigoscode.cliCarRental.client.ClientService;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -44,6 +46,7 @@ public class Main {
                     break;
                 case 6:
                     System.out.println("Running module six...");
+                    ClientService.printClientList();
                     break;
                 case 7:
                     System.out.println("Exiting the program.");

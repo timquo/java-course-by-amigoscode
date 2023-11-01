@@ -7,7 +7,7 @@ public class Client {
     private final String name;
     private final String surname;
     private String phone;
-    private final boolean hasValidDriverLicense;
+    public final boolean hasValidDriverLicense;
 
     public Client(String name, String surname, String phone, boolean hasValidDriverLicense) {
         this.id = IdGenerator.getInstance().generateUniqueString();
@@ -20,6 +20,18 @@ public class Client {
     public String getId() {
         return id;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+//    public boolean getSurname() {
+//        return surname;
+//    }
 
     public void setPhone(String newPhone) {
         this.phone = newPhone;
